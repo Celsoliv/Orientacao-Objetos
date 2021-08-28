@@ -25,7 +25,7 @@ class Agencia:
     def adicionar_cliente(self, nome, cpf, patrimonio):
         self.clientes.append((nome, cpf, patrimonio))
 
-#AgenciaVirtual que será filha da classe Agencia.
+#AgenciaVirtual que será filha da classe Agencia..
 class AgenciaVirtual(Agencia):
 
     def __init__(self, site, telefone, cnpj):
